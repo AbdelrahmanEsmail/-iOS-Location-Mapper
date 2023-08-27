@@ -14,6 +14,8 @@
 		CC91B3152A9742CC0091810F /* Map_Task_ITI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC91B3132A9742CC0091810F /* Map_Task_ITI.xcdatamodeld */; };
 		CC91B3172A9742CC0091810F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC91B3162A9742CC0091810F /* Assets.xcassets */; };
 		CC91B31A2A9742CC0091810F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC91B3182A9742CC0091810F /* LaunchScreen.storyboard */; };
+		CC91B3222A97457C0091810F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91B3212A97457C0091810F /* LocationViewController.swift */; };
+		CC91B3242A9748070091810F /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91B3232A9748070091810F /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CC91B3162A9742CC0091810F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC91B3192A9742CC0091810F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC91B31B2A9742CC0091810F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC91B3212A97457C0091810F /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		CC91B3232A9748070091810F /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				CC91B30A2A9742CC0091810F /* AppDelegate.swift */,
 				CC91B30C2A9742CC0091810F /* SceneDelegate.swift */,
 				CC91B30E2A9742CC0091810F /* ViewController.swift */,
+				CC91B3232A9748070091810F /* Annotation.swift */,
+				CC91B3212A97457C0091810F /* LocationViewController.swift */,
 				CC91B3102A9742CC0091810F /* Main.storyboard */,
 				CC91B3162A9742CC0091810F /* Assets.xcassets */,
 				CC91B3182A9742CC0091810F /* LaunchScreen.storyboard */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC91B3222A97457C0091810F /* LocationViewController.swift in Sources */,
 				CC91B30F2A9742CC0091810F /* ViewController.swift in Sources */,
 				CC91B30B2A9742CC0091810F /* AppDelegate.swift in Sources */,
 				CC91B3152A9742CC0091810F /* Map_Task_ITI.xcdatamodeld in Sources */,
+				CC91B3242A9748070091810F /* Annotation.swift in Sources */,
 				CC91B30D2A9742CC0091810F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

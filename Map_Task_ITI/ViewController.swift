@@ -7,13 +7,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    @IBOutlet weak var nameTxt: UITextField!
+    @IBOutlet weak var latTxt: UITextField!
+    @IBOutlet weak var lonTxt: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func showBtn(_ sender: Any) {
+        let latitudeText = latTxt.text!
+        let longitudeText = lonTxt.text!
+        let locationName = nameTxt.text!
+        let latitude = Double(latitudeText)
+        let longitude = Double(longitudeText)
+        
+        let LocationView = (storyboard?.instantiateViewController(withIdentifier: "LocationView"))! as! LocationViewController
+        LocationView.locationName = locationName
+        LocationView.longitude = longitude!
+        LocationView.latitude = latitude!
+        navigationController?.pushViewController(LocationView, animated: true)
+    }
+    
 
 }
 
